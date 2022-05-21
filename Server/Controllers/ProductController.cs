@@ -12,7 +12,7 @@ namespace BlazorEcommerce.Server.Controllers
     {
         private readonly DataContext datacontext;
 
-        public ProductController(DataContext datacontext)
+        public ProductController(IProduct)
         {
             this.datacontext = datacontext;
         }

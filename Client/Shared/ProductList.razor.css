@@ -19,14 +19,13 @@
 }
 
 .media-img-wrapper {
-    width: 400px;
-    width: 400px;
+    width: 200px;
     text-align: center;
 }
 
 @media (max-width: 1023.98px) {
-    .media-img {
-        max-width: 300px;
+    .media {
+        flex-direction: column;
     }
 
     .media-img-wrapper{

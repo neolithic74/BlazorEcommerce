@@ -1,6 +1,6 @@
 ﻿using BlazorEcommerce.Shared;
 
-namespace BlazorEcommerce.Client.Services
+namespace BlazorEcommerce.Client.Services.ProductService
 {
     public class ProductService : IProductService
     {
@@ -16,7 +16,7 @@ namespace BlazorEcommerce.Client.Services
         public async Task<ServiceResponse<Product>> GetProduct(int productId)
         {
             var result = await http.GetFromJsonAsync<ServiceResponse<Product>>($"api/product/{productId}");
-            return result;  
+            return result;
         }
 
         public async Task GetProducts()

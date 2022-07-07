@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEcommerce.Server", "Server\BlazorEcommerce.Server.csproj", "{2543D3FC-06A9-4EAD-8F3F-CCAE83BA5E8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEcommerce.Client", "Client\BlazorEcommerce.Client.csproj", "{C2B92BC4-BDA7-452C-8481-DD304BCE4B4A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEcommerce.Shared", "Shared\BlazorEcommerce.Shared.csproj", "{33913330-D80D-43BF-839C-6B4432589355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerce.Client", "Client\BlazorEcommerce.Client.csproj", "{1557C6AA-C358-448D-B5EC-95DB490FAF20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{2543D3FC-06A9-4EAD-8F3F-CCAE83BA5E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2543D3FC-06A9-4EAD-8F3F-CCAE83BA5E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2543D3FC-06A9-4EAD-8F3F-CCAE83BA5E8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2B92BC4-BDA7-452C-8481-DD304BCE4B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2B92BC4-BDA7-452C-8481-DD304BCE4B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2B92BC4-BDA7-452C-8481-DD304BCE4B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2B92BC4-BDA7-452C-8481-DD304BCE4B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33913330-D80D-43BF-839C-6B4432589355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33913330-D80D-43BF-839C-6B4432589355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33913330-D80D-43BF-839C-6B4432589355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33913330-D80D-43BF-839C-6B4432589355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1557C6AA-C358-448D-B5EC-95DB490FAF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1557C6AA-C358-448D-B5EC-95DB490FAF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1557C6AA-C358-448D-B5EC-95DB490FAF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1557C6AA-C358-448D-B5EC-95DB490FAF20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
